@@ -31,32 +31,18 @@ As the project grows, reusable UI can be added under `src/components/`.
 
 ## Roadmap
 
-### Phase 1: Scaffold and Foundation
-- Set up the Next.js app in this repo
-- Confirm single-page architecture
-- Keep the project Vercel-ready
-- Establish baseline mobile-first styling
+### Phase 4: Card Variants and Layout Randomization
+- Add a `photo-only` card type for image-led memory moments
+- Add a `text-only` card type for short notes without a photo
+- Make card alignment dynamic so each page refresh gives every card a 50/50 chance to appear on the left or right
+- Keep the random left/right behavior visually balanced for the mobile timeline flow
 
-Status: completed
-
-### Phase 2: Story Timeline Shell
-- Build the vertical timeline layout
-- Create reusable sections for memories and milestones
-- Support dates, short notes, captions, and photos
-- Keep the experience optimized for narrow viewports
-
-### Phase 3: Visual Direction
-- Define color tokens and typography
-- Build a more personal, less template-like visual language
-- Add restrained motion for reveals and pacing
-- Refine section spacing and reading rhythm
-
-### Phase 4: Real Content
+### Phase 5: Real Content
 - Replace placeholder copy with the actual story
 - Add curated photos and captions
 - Shape the emotional arc from opening message to closing note
 
-### Phase 5: Launch Prep
+### Phase 6: Launch Prep
 - Test on real mobile viewport sizes
 - Optimize images and performance
 - Check accessibility basics
