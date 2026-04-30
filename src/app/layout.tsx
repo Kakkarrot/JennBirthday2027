@@ -3,13 +3,13 @@ import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 import "./globals.css";
 
 const displayFont = Cormorant_Garamond({
-  variable: "--font-display",
+  variable: "--font-display-face",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
 const bodyFont = DM_Sans({
-  variable: "--font-body",
+  variable: "--font-body-face",
   subsets: ["latin"],
 });
 
